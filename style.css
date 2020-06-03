@@ -14,14 +14,39 @@
   width:100%;
 }
 
-@media (max-width: 991.98px) {
-  .bigimg{
-    width: 100%;
-  }
+.bigimg{
+  width: 100%;
+  position: relative;
+  text-align: center;
+  color:white;
 }
 
-@media (min-width: 992px) {
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav{
+  border-bottom-style: solid;
+  border-color:#d1bc92;
+}
+
+.nav-item{
+  padding-left: 1rem;
+}
+
+@media (max-width: 992px) {
   .bigimg{
     width: 60%;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .bigimg{
+    width: 50%;
   }
 }
