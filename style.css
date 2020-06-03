@@ -1,0 +1,27 @@
+.carousel-control-prev-icon{
+  filter: invert(1);
+}
+
+.carousel-control-next-icon{
+  filter: invert(1);
+}
+
+.carousel-indicators{
+  filter: invert(1);
+}
+
+.portfolio-item{
+  width:100%;
+}
+
+@media (max-width: 991.98px) {
+  .bigimg{
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .bigimg{
+    width: 60%;
+  }
+}
