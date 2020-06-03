@@ -38,6 +38,24 @@
   padding-left: 1rem;
 }
 
+.bold{
+  font-weight: bolder;
+}
+
+.fa{
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover{
+  color: gray;
+  text-decoration: none;
+}
+
 @media (max-width: 992px) {
   .bigimg{
     width: 60%;
