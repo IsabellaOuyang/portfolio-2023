@@ -15,7 +15,7 @@
 
   <body>
     <header>
-      <nav class="navbar fixed-top navbar-expand-md navbar-light " style="background-color: #d1bc92;">
+      <nav id="nav_border" class="navbar fixed-top navbar-expand-md navbar-light bg-light">
         <a class="navbar-brand" href="index.html">
           <img src="img/isabella.svg" height="30" alt="logo">
         </a>
@@ -25,16 +25,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-light" href="architecture.html">ARCHITECTURE</a>
+            <a class="nav-link text-dark" href="architecture.html"><div class="nav_hover">ARCHITECTURE</div></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="page.html">UX DESIGN</a>
+            <a class="nav-link text-dark" href="uxdesign.html"><div class="nav_hover">UX DESIGN</div></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="index.html">ABOUT</a>
+            <a class="nav-link text-dark" href="index.html"><div class="nav_hover">ABOUT</div></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="index.html">CONTACT</a>
+            <a class="nav-link text-dark" href="index.html"><div class="nav_hover">CONTACT</div></a>
           </li>
         </ul>
         </div>
@@ -63,16 +63,50 @@
 
         <div class="container">
           <div class="text-center">
-              <br><br><br>
+              <br><br><br><br>
               <p class="lead text-muted">
                 <b class="text-dark">WELCOME</b><br><br>
                 Hi, I am a fifth-year Architecture student at Carnegie Mellon University, minoring in HCI and Media Design.
               </p>
-              <br><br><br>
+              <br><br><br><br>
           </div>
 
           <h2><small> RECENT WORK </small></h2>
           <br>
+
+          <div class="row align-items-center no-gutters">
+            <div class="col-12 col-md-7">
+              <a href="highrise.html"><img src="img/home_1.jpg" alt="high rise" class="re_img"></a>
+            </div>
+            <div class="col-12 col-md-5">
+              <div class="re_text">
+                <p class="lead">
+                  <b class="text-dark"><a class="mylink" href="highrise.html">DUPLEXCITY</a></b><br><br>
+                </p>
+                <p class="text-muted">
+                  This is an affordable residential project in Pittsburgh, taught by Akhil Badjatia in fall 2019. It is designed by team Isabella Ouyang, Curran Zhang, Longney Luk, Chitika Vasudeva.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <br><br>
+
+          <div class="row align-items-center no-gutters">
+            <div class="col-12 col-md-7">
+              <a href="cmuoutfits.html"><img src="img/home_2.jpg" alt="cmu outfits" class="re_img"></a>
+            </div>
+            <div class="col-12 col-md-5">
+              <div class="re_text">
+                <p class="lead">
+                  <b class="text-dark"><a class="mylink" href="cmuoutfits.html">CMU OUTFITS</a></b><br><br>
+                </p>
+                <p class="text-muted">
+                  This data visualization project of CMU students' outfits was created by Fon Euchukanonchai and Isabella Ouyang for Data Visualization, taught by Benedikt Gross in fall 2019.
+                </p>
+              </div>
+            </div>
+          </div>
 
 
 
@@ -81,14 +115,14 @@
       </div>
     </main>
 
-    <footer class="text-muted" style="background-color: #d1bc92;">
+    <footer class="text-muted" id="foot_border">
       <div class="container">
         <p class="float-right">
           <br>
-          <a href="#" class="text-light"> BACK TO TOP </a>
+          <a href="#" class="text-muted"> BACK TO TOP </a>
         </p>
-        <p class="text-white-50 text-center">
-          <br><br><br>
+        <p class="text-center">
+          <br><br><br><br><br>
 
           <!--Social media-->
           <a href="https://www.facebook.com/isabella.ouyang.96/" target="_blank" class="fa fa-facebook"></a>
@@ -96,10 +130,10 @@
           <a href="https://www.instagram.com/isabella_ouyang/?hl=en" target="_blank" class="fa fa-instagram"></a>
 
           <br><i class="fa fa-envelope-o"></i>
-          <a class="text-white" href="mailto:name@example.com">isabellaouyang0614@gmail.com</a><br>
+          <a class="text-muted" href="mailto:name@example.com">isabellaouyang0614@gmail.com</a><br>
 
-          <br><br>Isabella Ouyang @ 2020<br>
-          <br><br><br>
+          <br><br><p class="text-center" style="color: #d1bc92; opacity:0.5;">Isabella Ouyang @ 2020</p><br>
+          <br>
         </p>
       </div>
     </footer>

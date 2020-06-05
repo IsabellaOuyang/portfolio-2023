@@ -7,13 +7,15 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- LINK YOUR OWN CSS -->
-    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Isabella Ouyang | Portfolio</title>
   </head>
 
   <body>
     <header>
-      <nav class="navbar fixed-top navbar-expand-md navbar-light bg-warning">
+      <nav id="nav_border" class="navbar fixed-top navbar-expand-md navbar-light bg-light">
         <a class="navbar-brand" href="index.html">
           <img src="img/isabella.svg" height="30" alt="logo">
         </a>
@@ -23,16 +25,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-light" href="architecture.html">ARCHITECTURE</a>
+            <a class="nav-link text-dark" href="architecture.html"><div class="nav_hover">ARCHITECTURE</div></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="uxdesign.html">UX DESIGN</a>
+            <a class="nav-link text-dark" href="uxdesign.html"><div class="nav_hover">UX DESIGN</div></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="index.html">ABOUT</a>
+            <a class="nav-link text-dark" href="index.html"><div class="nav_hover">ABOUT</div></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light" href="index.html">CONTACT</a>
+            <a class="nav-link text-dark" href="index.html"><div class="nav_hover">CONTACT</div></a>
           </li>
         </ul>
         </div>
@@ -43,11 +45,10 @@
       <section class="jumbotron jumbotron-fluid text-center heading">
         <div class="container">
           <br><br><br><br>
-          <h1 class="display-4"> Design x Space </h1>
+          <h1 class="display-4"> Design x Human </h1>
           <p class="lead text-muted">
             <br>
-            Hi. My name is Isabella Ouyang. I am an architecture student at Carnegie Mellon University.
-            <br> This is my website that shows all my design work.
+            I believe design should focus on users' need, the interaction between human and machine, and aesthetics.
             <br><br>
           </p>
         </div>
@@ -57,7 +58,7 @@
       <div class="album py-5 bg-light">
 
         <div class="container">
-          <h2><small> My Work </small></h2>
+          <h2><small> MY WORK </small></h2>
           <br>
           <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2">
             <div class="col mb-4">
@@ -65,7 +66,7 @@
                 <img class="card-img-top" src="img/h1.jpg" alt="high rise">
                 <div class="card-body">
                   <h5 class="card-title"> High Rise Residential </h5>
-                  <p class="card-text"> This is an affordable residential housing project in East Liberty, Pittsburgh.</p>
+                  <p class="card-text"> This is an affordable residential project in East Liberty, Pittsburgh.</p>
                   <a href="page.html" class="btn btn-warning border-light text-light"> Explore more </a>
                 </div>
               </div>
@@ -165,16 +166,25 @@
       </div>
     </main>
 
-    <footer class="text-muted bg-warning">
+    <footer class="text-muted" id="foot_border">
       <div class="container">
         <p class="float-right">
           <br>
-          <a href="#" class="text-info"> BACK TO TOP </a>
+          <a href="#" class="text-muted"> BACK TO TOP </a>
         </p>
-        <p class="text-white-50">
-          <br><br><br>
-          Isabella Ouyang @ 2020
-          <br><br><br><br>
+        <p class="text-center">
+          <br><br><br><br><br>
+
+          <!--Social media-->
+          <a href="https://www.facebook.com/isabella.ouyang.96/" target="_blank" class="fa fa-facebook"></a>
+          <a href="https://www.linkedin.com/in/isabella-yushan-ouyang-0614/" target="_blank" class="fa fa-linkedin"></a>
+          <a href="https://www.instagram.com/isabella_ouyang/?hl=en" target="_blank" class="fa fa-instagram"></a>
+
+          <br><i class="fa fa-envelope-o"></i>
+          <a class="text-muted" href="mailto:name@example.com">isabellaouyang0614@gmail.com</a><br>
+
+          <br><br><p class="text-center" style="color: #d1bc92; opacity:0.5;">Isabella Ouyang @ 2020</p><br>
+          <br><br>
         </p>
       </div>
     </footer>
