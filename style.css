@@ -1,25 +1,4 @@
-.carousel-control-prev-icon{
-  filter: invert(1);
-}
 
-.carousel-control-next-icon{
-  filter: invert(1);
-}
-
-.carousel-indicators{
-  filter: invert(1);
-}
-
-.portfolio-item{
-  width:100%;
-}
-
-.bigimg{
-  width: 100%;
-  position: relative;
-  text-align: center;
-  color:white;
-}
 
 /* HOMEPAGE */
 .centered {
@@ -130,16 +109,37 @@
   color:black;
 }
 
+/* ARCHITECTURE PAGE */
+.col-12{
+  padding: 0;
+}
+
+.carousel-control-prev-icon{
+  filter: invert(1);
+}
+
+.carousel-control-next-icon{
+  filter: invert(1);
+}
+
+.carousel-indicators{
+  filter: invert(1);
+}
+
+.nav_over{
+  padding-top: 4rem;
+}
+
+.jumbotron{
+  margin-bottom: 0;
+}
+
 @media (max-width: 992px) {
-  .bigimg{
-    width: 60%;
-  }
+
 
 }
 
 @media (max-width: 600px) {
-  .bigimg{
-    width: 50%;
-  }
+
 
 }
