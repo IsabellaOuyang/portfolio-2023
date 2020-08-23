@@ -134,8 +134,29 @@
   margin-bottom: 0;
 }
 
+/* MCS PAGE */
+.leftcolumn{
+  float:left;
+  width: 25%;
+}
+.rightcolumn{
+  float:left;
+  width: 50%;
+}
+.columnstructure:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 @media (max-width: 992px) {
-
+  .leftcolumn{
+    float:none;
+    width: 100%;
+  }
+  .rightcolumn{
+    float:none;
+    width: 100%;
+  }
 
 }
 
