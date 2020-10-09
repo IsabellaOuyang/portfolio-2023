@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 792 792" style="enable-background:new 0 0 792 792;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E9ECEF;}
+	.st1{opacity:0.5;fill:#E06C1E;enable-background:new    ;}
+</style>
+<rect class="st0" width="792" height="792"/>
+<g>
+	<defs>
+		<circle id="SVGID_1_" cx="396" cy="396" r="396"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g transform="matrix(1 0 0 1 0 0)" style="clip-path:url(#SVGID_2_);">
+		
+			<image style="overflow:visible;" width="1161" height="852" xlink:href="bath_site.JPG"  transform="matrix(0.931 0 0 0.931 -167.4894 0)">
+		</image>
+	</g>
+</g>
+<circle class="st1" cx="418.9" cy="292.8" r="22.9"/>
+</svg>
