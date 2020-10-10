@@ -4,21 +4,24 @@
 	 viewBox="0 0 792 792" style="enable-background:new 0 0 792 792;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#E9ECEF;}
-	.st1{opacity:0.5;fill:#E06C1E;enable-background:new    ;}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{opacity:0.5;fill:#E06C1E;enable-background:new    ;}
 </style>
 <rect class="st0" width="792" height="792"/>
 <g>
-	<defs>
-		<circle id="SVGID_1_" cx="396" cy="396" r="396"/>
-	</defs>
-	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-	</clipPath>
-	<g transform="matrix(1 0 0 1 0 0)" style="clip-path:url(#SVGID_2_);">
-		
-			<image style="overflow:visible;" width="1161" height="852" xlink:href="bath_site.JPG"  transform="matrix(0.931 0 0 0.931 -167.4894 0)">
-		</image>
+	<g>
+		<defs>
+			<circle id="SVGID_1_" cx="396" cy="396" r="396"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st1">
+			
+				<image style="overflow:visible;enable-background:new    ;" width="1261" height="795" xlink:href="C:\Users\isabe\OneDrive\Desktop\Capture.JPG"  transform="matrix(0.9962 0 0 0.9962 -111.4938 0)">
+			</image>
+		</g>
 	</g>
 </g>
-<circle class="st1" cx="418.9" cy="292.8" r="22.9"/>
+<rect x="423.9" y="303.3" transform="matrix(0.8946 0.4469 -0.4469 0.8946 209.4796 -185.8417)" class="st2" width="149.6" height="95.6"/>
 </svg>
