@@ -149,6 +149,7 @@
   clear: both;
 }
 @media (max-width: 992px) {
+/* MCS PAGE */
   .leftcolumn{
     float:none;
     width: 100%;
