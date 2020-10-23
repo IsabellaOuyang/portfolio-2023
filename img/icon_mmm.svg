@@ -3,8 +3,9 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1600 900" style="enable-background:new 0 0 1600 900;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#231F20;stroke-width:30;stroke-miterlimit:10;}
+	.st0{fill:none;stroke:#231F20;stroke-width:40;stroke-miterlimit:10;}
 </style>
-<circle class="st0" cx="661.3" cy="450" r="184.3"/>
-<circle class="st0" cx="938.7" cy="450" r="184.3"/>
+<circle class="st0" cx="696.3" cy="450" r="150.8"/>
+<path class="st0" d="M770,517.3c-10.1-20.3-15.8-43.1-15.8-67.3c0-83.3,67.5-150.8,150.8-150.8s150.8,67.5,150.8,150.8
+	S988.2,600.8,905,600.8C845.9,600.8,794.7,566.8,770,517.3"/>
 </svg>
