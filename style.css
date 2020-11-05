@@ -1,6 +1,10 @@
 
 
 /* HOMEPAGE */
+.bgimg{
+  width:100%;
+}
+
 .centered {
   position: absolute;
   top: 50%;
@@ -149,6 +153,11 @@
   clear: both;
 }
 @media (max-width: 992px) {
+/* HOME PAGE */
+  .bgimg{
+    width:150%;
+  }
+
 /* MCS PAGE */
   .leftcolumn{
     float:none;
@@ -162,6 +171,9 @@
 }
 
 @media (max-width: 600px) {
-
+  /* HOME PAGE */
+    .bgimg{
+      width:250%;
+    }
 
 }
