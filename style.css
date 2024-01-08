@@ -39,6 +39,11 @@
   font-weight: bolder;
 }
 
+.bg-focused{
+  background-color: #d1bc92;
+  color:#ededed;
+}
+
 .re_text{
   top:20%;
   padding: 1rem;
